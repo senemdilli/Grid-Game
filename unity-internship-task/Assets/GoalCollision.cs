@@ -12,7 +12,10 @@ public class GoalCollision : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        WinGame();
+        if (collision.gameObject.tag == "Finish")
+        {
+            WinGame();
+        }
     }
 
 }
