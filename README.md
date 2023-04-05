@@ -1,6 +1,5 @@
-# 2D Unity Game Project | Otsimo Internship Task
+# 2D Unity Game Project | Grid Game
 
-senem-dilli-otsimo-internship-task-game-dev-2023
 
 ## About Game
 We have a player trying to reach the prize "coin" by avoiding the enemy "fire". When player moves to the fire block, game ends and user loses. There is also different obstacles, such as rocks and bushes. The game randomly generates levels every time. The player can only move up, down, right and left in grids. It can't sit between grid blocks. The game has four different game screens. These are - Main Menu screen, Game Play screen, Game Over screen, Game Success screen.
